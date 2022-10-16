@@ -13,9 +13,9 @@ int main()
 	}
 if(n==s)
 {
-	printf("hai");
+	printf("It is a Armgstrong number");
 	}	
 	else
-	printf("nhi hai");
+	printf("It is not a Armgstrong number");
 }
 
