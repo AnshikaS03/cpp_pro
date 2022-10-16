@@ -16,7 +16,7 @@ int main(){
   }
 
   for(i=0;i<3;i++)
-      determinant = determinant + (a[0][i]*(a[1][(i+1)%3]*a[2][(i+2)%3] - a[1][(i+1)%2]*a[2][(i+1)%3]));
+      determinant = determinant + (a[0][i]*(a[1][(i+1)%3]*a[2][(i+2)%3] - a[1][(i+2)%3]*a[2][(i+1)%3]));
 
   printf("\nDeterminant of matrix is: %d",determinant);
 
